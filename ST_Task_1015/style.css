@@ -1,0 +1,94 @@
+*{
+    box-sizing:border-box;
+  }
+  
+  body{
+    background-color: black;
+  }
+  .container{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    padding-top: 60px;
+  }
+  .container h1{
+    font-size: 75px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .content .text {
+    display: flex;
+  }
+  .content{
+    display: flex;
+    width: 50%;
+    color: white;
+  
+  }
+  .aside{
+    display: flex;
+    position: relative;
+    margin: 10px auto;
+  }
+  
+  .subhead{
+    margin-top: -30px;
+  }
+  .text{
+    padding:10px;
+  }
+  .header-nav a {
+    margin:5px;
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  
+  .footer-nav a {
+    margin:5px;
+    padding:10px;
+    display: flex;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+  }
+  button{
+    min-height: 40px;
+    min-width: 80%;
+    border-radius: 10px;
+    border:none;
+    background-color: white;
+    color:black;
+  }
+  
+  @media screen and (min-width: 400px) {
+      .header-nav {
+          flex-flow: row wrap;
+      }
+  }
+
+  @media screen and (min-width: 200px) {
+      .content {
+          flex-flow: row wrap;
+       
+      }
+  }
+  
+  li {
+      display: inline-block;
+      padding-right:  40px;
+  }
+  a:hover, a:active{
+        color:grey;
+  }
+  
+  .footer {
+    width: 100%;
+    margin:5px;
+    background-color:black;
+  
+  }
